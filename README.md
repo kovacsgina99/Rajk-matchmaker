@@ -8,8 +8,6 @@ Az **adatok** egy Google Form-os kérdőívből érkeznek, amely 25 db kérdést
 A kérdőívben feleletválasztós kérdések szerepeltek 1 vagy több választási lehetőséggel, illetve 1 db nyitott kérdés. Kizárólagosan a kérdőívet kitöltő kollégisták kerültek bele a Rajkos Matchmaker-be (a projekt leadásáig 71 fő). 
 Az emberek "összematcheléséhez" először szubjektív módon/internetes keresgéléssel kitaláltam, mely kérdésnél milyen válaszok vagy válaszkombinációk mennyire passzolnak össze, ezután ezekre megírtam a kódokat. A logika, amit követtem az volt, hogy **a hasonló emberek** alkotnak jó párt. A kérdések különböző súllyal számítanak a végső "match-százalék" kiszámításában (1-4-7%).
 
-**A projektet az alábbi linken lehet elérni:** ...
-
 Amennyiben valaki a későbbiekben **bővíteni szeretné** a projektet, az új kitöltőket is tartalmazó csv fájlt a Rajkos match-maker.ipynb fájlba kell betöltenie. Ezen felül két dolgot szükséges manuálisan elvégeznie: 
 (1) Ha valaki nem a teljes nevével töltötte ki a kérdőívet, érdemes kicserélni a dataframe-ben, hogy utána a teljes név jelenjen meg a legördülő listában is. 
 (2) A 2. funkció teljessége miatt a kitöltők nevét is manuálisan kell kitölteni, mert ezt sajnos a kérdőívben elfelejtettem megkérdezni. Nagyszámú kitöltő esetén erre érdemes kódot írni, vagy további használat előtt kibővíteni a Google Form-ot nemre vonatkozó kérdéssel.
